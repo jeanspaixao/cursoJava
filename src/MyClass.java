@@ -1,5 +1,13 @@
 public class MyClass {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    String primeiroNome = "Gleyson";
+    String segundoNome = "Sampaio";
+    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+    System.out.println(nomeCompleto);
+
+    }
+
+    public static String nomeCompleto(String primeiroNome, String segundoNome) {
+    return primeiroNome.concat(" ").concat(segundoNome);
     }
 }
